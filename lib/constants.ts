@@ -24,7 +24,7 @@ export const META_DESCRIPTION =
   'This is a hackthon hosted by Girls Who Code Katy.';
 export const SITE_DESCRIPTION =
   'An interactive online experience by the community, free for everyone, brought to you by Girls Who Code Katy.';
-export const DATE = 'October 27, 2020';
+export const DATE = 'April 12, 2022';
 export const SHORT_DATE = 'Apr 12 - 9:00am CST';
 export const FULL_DATE = 'April 27th 9am Central Time';
 export const TWEET_TEXT = META_DESCRIPTION;

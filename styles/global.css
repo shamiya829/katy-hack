@@ -52,10 +52,10 @@
   --accents-8: #111111;
 
   --gray: #252729;
-  --secondary-color: #8a8f98;
-  --sidebar: #0e0e10;
+  --secondary-color: white;
+  --sidebar: #f1adb6;
   --header-height: 72px;
-  --brand: #845ef7;
+  --brand: #ca5b5b;
 }
 
 html {
@@ -95,10 +95,10 @@ body {
 html,
 body {
   color: #fff;
-  background-color: #111;
+  background-color: rgb(52, 121, 167);
 }
 ::selection {
-  background-color: #0070f3;
+  background-color: #131446;
   color: #fff;
 }
 [role='grid']:focus {
