@@ -98,8 +98,8 @@ body {
   background-color: rgb(52, 121, 167);
 }
 ::selection {
-  background-color: #131446;
-  color: #fff;
+  background-color: #fff;
+  color: #131446;
 }
 [role='grid']:focus {
   outline: none;

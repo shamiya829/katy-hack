@@ -24,8 +24,8 @@ export const META_DESCRIPTION =
   'This is a hackthon hosted by Girls Who Code Katy.';
 export const SITE_DESCRIPTION =
   'An interactive online experience by the community, free for everyone, brought to you by Girls Who Code Katy.';
-export const DATE = 'April 12, 2022';
-export const SHORT_DATE = 'Apr 12 - 9:00am CST';
+export const DATE = 'April 15 - 17 2022';
+export const SHORT_DATE = 'Apr 15 - 9:00am CST';
 export const FULL_DATE = 'April 27th 9am Central Time';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
@@ -41,35 +41,36 @@ export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
-    route: '/stage/a'
-  },
-  {
-    name: 'Stage C',
-    route: '/stage/c'
-  },
-  {
-    name: 'Stage M',
-    route: '/stage/m'
-  },
-  {
-    name: 'Stage E',
-    route: '/stage/e'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
+    name: 'Home',
+    route: '/index'
   },
   {
     name: 'Speakers',
     route: '/speakers'
   },
   {
-    name: 'Expo',
-    route: '/expo'
+    name: 'Prizes',
+    route: '/stage/c'
   },
   {
-    name: 'Jobs',
+    name: 'Workshops',
+    route: '/stage/m'
+  },
+  {
+    name: 'Schedule',
+    route: '/schedule'
+  },
+  {
+    name: 'Sponsors',
+    route: '/stage/e'
+  },
+  
+  {
+    name: 'Our Team',
+    route: '/about'
+  },
+  {
+    name: 'Contact',
     route: '/jobs'
   }
 ];
