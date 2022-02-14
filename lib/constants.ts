@@ -19,7 +19,7 @@ export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_U
 export const TWITTER_USER_NAME = 'gwckaty';
 export const BRAND_NAME = 'Katy Hack';
 export const SITE_NAME_MULTILINE = ['GWC', 'Hack'];
-export const SITE_NAME = 'Katy Conf';
+export const SITE_NAME = 'Katy Youth';
 export const META_DESCRIPTION =
   'This is a hackthon hosted by Girls Who Code Katy.';
 export const SITE_DESCRIPTION =
@@ -42,7 +42,7 @@ export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Home',
-    route: '/index'
+    route: '/'
   },
   {
     name: 'Speakers',
@@ -50,7 +50,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Prizes',
-    route: '/stage/c'
+    route: '/prizes'
   },
   {
     name: 'Workshops',
@@ -62,7 +62,7 @@ export const NAVIGATION = [
   },
   {
     name: 'Sponsors',
-    route: '/stage/e'
+    route: '/sponsors'
   },
   
   {
